@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import marketDataRouter from './routes/marketData.js';
 import portfolioRouter from './routes/portfolio.js';
+import quotesRouter from './routes/quotes.js';
 
 dotenv.config();
 
@@ -16,6 +17,7 @@ app.get('/health', (_req, res) => {
 
 app.use('/api/market', marketDataRouter);
 app.use('/api/portfolio', portfolioRouter);
+app.use('/api/quotes', quotesRouter);
 
 app.use((err: unknown, _req: Request, res: Response, _next: NextFunction) => {
   console.error('Unhandled error', err);
