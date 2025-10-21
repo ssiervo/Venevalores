@@ -1,0 +1,23 @@
+{
+  "holdings": [
+    {
+      "id": "ABC.A",
+      "symbol": "ABC.A",
+      "name": "Banco Caribe Clase A",
+      "quantity": 120,
+      "averagePriceVES": 310.5,
+      "lastPriceVES": 320,
+      "lastUpdate": "2025-10-20T16:37:00Z"
+    },
+    {
+      "id": "BGV",
+      "symbol": "BGV",
+      "name": "Banesco GDS V",
+      "quantity": 40,
+      "averagePriceVES": 1500,
+      "lastPriceVES": 1780,
+      "lastUpdate": "2025-10-20T16:37:00Z"
+    }
+  ],
+  "pendingOrders": []
+}
